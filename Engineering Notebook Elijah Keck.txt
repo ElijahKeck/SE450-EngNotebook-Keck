@@ -1,0 +1,178 @@
+09/13/21
+Began researching AirSim and how to install it to use for development
+
+
+09/16/21
+Installed AirSim
+Installed Visual Studios 2019
+Installed Unreal Engine 4
+
+09/19/21
+Installed Blocks Environment and generated car and multi rotor
+Was able to manually control car -- Unable to manually control multi rotor
+Worked on Product Backlog
+
+09/23/21
+Examined AirSim documentation for multi rotor movement and generation
+
+
+09/27/21
+Drew up use case and DFD for UAS
+Worked on SDD and SRS 1st draft
+Began Sprint Demo Presentation
+
+09/28/21
+Finalized SDD and SRS first drafts
+Worked on sprint demo presentation
+Worked on spawning drones in AirSim
+
+09/29/21
+Edited AirSim settings.json to allow for drone spawning in any location/number
+Created videos for sprint demo
+Uploaded videos and information onto sprint demo presentation slides
+
+09/30/21
+Completed sprint demo
+
+10/07/21
+Researched AirSim APIs
+
+10/11/21
+Met in person to speak about current implementation of the project, AirSim installation, AirSim APIs
+
+10/13/21
+Researched AirSim APIs
+Researched AirSim contributed tutorials
+
+10/18/21
+Researched how to execute python scripts in Unreal Engine 4
+Executed tutorial python scripts in Unreal Engine 4
+Worked on Test plan v1
+
+10/19/21
+Finalized test plan v1 changes
+
+10/25/21
+Worked on changes to SDD and SRS to make SDD and SRS v2 based on feedback
+Made class model and updated previous diagrams for SDD
+Had PO meeting
+
+10/26/21
+Finalized SDD and SRS changes to v2
+
+10/27/21
+Created python scripts for single and multiple uav movement
+Created python script for uav communication (ping pong information)
+Recorded demo videos 
+Uploaded videos and new diagrams for sprint demo presentation
+
+10/29/21
+Completed sprint demo presentation
+
+11/2/21
+Had scrum meeting
+Got feedback on presentation
+
+11/9/21
+Began research about multi agent AirSim simulations
+
+11/16/21
+Began work on agents stationkeeping around a lead drone (the sink)
+
+11/19/21 - 11/21/21
+Finished agents stationkeeping around a lead drone with constant communication of position updates to the two agents from the lead drone
+Researched lead-follow drone dynamics in AirSim
+Implemented the first case for drone swarm formations
+Implemented a way to keep track of how many drone actors are active in the simulation
+Began implementation of case structure for number of drones correlating to formation used based on provided algorithms
+
+11/22/21
+Tested implementation of 2 drone actor geometry
+Researched drone port overloading to avoid the issue seen in many GitHub issue reports on AirSim
+Researched waypoint generation for drone swarm given start and end point
+
+11/29/21
+Worked on SDD feedback changes and additions for final version
+Added to case structure for AirSim drone swarm geometries
+
+11/30/21
+Worked with IT to finalize setup of the lab computers to develop with AirSim and unreal
+Finalized changes to SDD and pushed final version to GitHub
+
+12/02/21
+Added more cases to case structure of AirSim drone geometries
+Met about measurement implementation
+Reviewed code about the object slice method
+
+12/03/21
+Finished all drone geometry cases
+Discussed implementation of measurement of volume using trapezoid integration with scipy 
+Researched NED to unreal coordinate system translations
+
+-- SEMESTER 2 --
+
+01/17/22
+Discussed project goals
+Discussed major modules to implement
+Set up zen hub for semester 2
+
+01/18/22
+Discussed individual tasks to fit within the major modules
+Discussed implementation of modules and tasks
+Created Epics in zen hub for the modules 
+Created individual tasks on zen hub
+
+01/19/22
+Continued creating individual tasks on zen hub
+Continued discussing and coming up with tasks for implementation of solutions
+
+01/25/22
+Created individual settings .json files for each amount of drones (2-8 drones)
+Fixed formations to add the proper offset from the spawn point described in the settings .json
+Finalized product backlog
+
+01/26/22
+Changed method of getting drone position from the multi rotor state function to use ground truth data
+
+02/01/22
+Made all formations use ground truth data
+Pruned SDD outdated information
+
+02/02/22
+Added new state charts into SDD for new modules
+
+02/03/22
+Added fixes for old information and added new sections for current work in SDD
+
+02/04/22
+Finalized SDD V1 for semester 2 with filling out new sections
+
+02/08/22
+Worked on swarm pathing class in conjunction with Dillon's linked list class
+Added method to put drones on waypoint path
+Added method to detect waypoint arrival
+Changed swarming script to a class file
+Added a testing script to centralize testing and execution of new classes and modules
+
+02/15/22
+Checked GitHub version against changes for Sprint 1 Demo
+updated code in GitHub to most recent version
+Worked on waypoint list issues
+
+02/17/22
+Adds fixes for avoidance and path following using waypoint lists
+Adds streamlined if statement in simple detection file
+
+02/22/22
+Fixes old requirements and adds new requirements on test plan
+
+02/27/22
+Added new test cases for reqs 30-38 in test plan
+
+03/06/22
+Added semester 2 sprint 2 changes for SDD
+
+03/08/22
+Added method to turn and look in direction of movement into the pathing module
+Checked version of GitHub against current code on lab computers
+Pushed most recent version of code to GitHub
