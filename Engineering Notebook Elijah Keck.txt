@@ -176,3 +176,49 @@ Added semester 2 sprint 2 changes for SDD
 Added method to turn and look in direction of movement into the pathing module
 Checked version of GitHub against current code on lab computers
 Pushed most recent version of code to GitHub
+
+03/22/22
+Researched multi-client solutions for independent behaviors
+worked on multi-client solutions
+worked on avoidance algorithim
+
+03/24/22
+Researched multi-client solutions for independent behaviors
+worked on multi-client solutions
+worked on analytics research
+
+03/29/22
+created prototype class for analytic data
+Researched multi-client solutions for independent behaviors
+worked on multi-client solutions
+
+03/31/22
+Researched multi-client solutions for independent behaviors
+worked on multi-client solutions
+worked on analytics research
+
+04/05/22
+Researched multi-client solutions for independent behaviors
+worked on multi-client solutions
+analytic data class
+
+04/07/22
+Researched multi-client solutions for independent behaviors
+Out sick
+
+04/12/22
+Researched multi-client solutions for independent behaviors
+worked on threading approach for multip client behaviors
+changed settings to test multiclient changes
+
+04/14/22
+Researched multi-client solutions for independent behaviors
+worked on threading approach for multip client behaviors
+
+04/19/22
+Researched multi-client solutions for independent behaviors
+worked on threading approach for multip client behaviors
+changed settings to test multiclient changes
+
+04/21/22
+Out sick
